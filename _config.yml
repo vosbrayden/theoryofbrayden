@@ -1,41 +1,49 @@
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-baseurl:        "/tale"
-url:            "https://chesterhow.github.io"
+title:           Theory of Brayden
+description:     "A blog of hot takes and colder facts"
+baseurl:         "/theoryofbrayden" # your GitHub repo name (omit if using custom domain)
+url:             "https://vosbrayden.github.io" # your GitHub Pages URL or custom domain
 
-# Google Analytics
-google_analytics: UA—XXXXXXXX-X
-
-# Author
+# Author settings
 author:
-  name:         Chester How
-  url:          https://chester.how
-  email:        chesterhow@gmail.com
+  name:          Brayden Vos
+  email:         your-email@example.com
 
 # Build settings
-markdown:       kramdown
-include:
-  - _pages
+markdown:        kramdown
+future:          true
+permalink:       /:year-:month-:day/:title/
 
-# Assets
+# Pagination
+paginate:        5
+paginate_path:   "/page:num"
+
+# Sass settings
 sass:
-  sass_dir:     _sass
-  style:        compressed
+  sass_dir:      _sass
+  style:         compressed
 
-# Gems
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-seo-tag
-  # - jemoji #Uncomment this to allow emoji in your post
 
-# Permalinks
-permalink:      /:year-:month-:day/:title
-paginate:       5
+# Include folders
+include:
+  - _pages
 
-# Excludes
-exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+# Excluded files from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - tale.gemspec
+  - README.md
+  - node_modules
+  - vendor
 
-# Disqus (Set to your disqus id)
-disqus:         jekyll-tale
+# Disqus (optional)
+disqus:          your-disqus-id # Replace or delete if not using
+
+# Google Analytics (optional)
+google_analytics: UA-XXXXXXXXX-X # Replace or delete if not using

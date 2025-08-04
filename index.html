@@ -1,4 +1,7 @@
 ---
-layout: home
-title: Home
+layout: default
 ---
+
+{% for post in site.posts %}
+  {% include catalogue_item.html %}
+{% endfor %}
