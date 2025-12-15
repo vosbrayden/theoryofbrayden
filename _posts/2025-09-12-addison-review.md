@@ -79,7 +79,7 @@ This is 100% the best song on this album. Remember the Von Dutch vibe I mentione
 
 The intro is great, a little bit of whispering/singing teasing a really nice rhythmic beat with a great hi-hat. And then just like that she sings "Fame is a gun" and then the song is off to the races. Her voice sounds great, the little star noise (I don't know how else to describe it) is awesome. The second verse dips back into the whispering/singing, and then the chorus is a banger again. 
 
-No notes, this song is great, makes me feel like I'm a pop-star doing molly at the club.
+No notes, this song is great, makes me feel like I'm a pop-star doing molly at the club (I've never done molly, this is just what I imagine it's like).
 
 **Times Like These**
 
